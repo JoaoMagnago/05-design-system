@@ -1,0 +1,4 @@
+{
+  "extends": "@ignite-ui-magnago/ts-config/base.json",
+  "include": ["src"],
+}
