@@ -7,7 +7,8 @@
   "scripts": {
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "dev": "storybook dev -p 6006",
-    "build": "storybook build"
+    "build": "storybook build",
+    "deploy-storybook": "build-storybook"
   },
   "license": "MIT",
   "dependencies": {
@@ -30,6 +31,7 @@
     "@storybook/blocks": "^8.0.8",
     "@storybook/react": "^8.0.8",
     "@storybook/react-vite": "^8.0.8",
+    "@storybook/storybook-deployer": "^2.8.16",
     "@storybook/test": "^8.0.8",
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",
