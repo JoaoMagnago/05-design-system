@@ -1,4 +1,4 @@
-import { Box, BoxProps } from '@ignite-ui-magnago/react'
+import { Box, BoxProps, Text } from '@ignite-ui-magnago/react'
 import type { Meta, StoryObj } from '@storybook/react'
 
 export default {
@@ -7,9 +7,16 @@ export default {
   args: {
     children: (
       <>
-        <span>Testando Box</span>
+        <Text>Testando Box</Text>
       </>
     )
+  },
+  argTypes: {
+    children: {
+      control: {
+        type: null
+      }
+    }
   }
 } as Meta<BoxProps>
 

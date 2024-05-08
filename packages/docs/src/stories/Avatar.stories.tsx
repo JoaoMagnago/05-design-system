@@ -7,6 +7,13 @@ export default {
   args: {
     src: 'https://github.com/joaomagnago.png',
     alt: 'Foto de perfil do João Magnago'
+  },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text'
+      }
+    }
   }
 } as Meta<AvatarProps>
 
