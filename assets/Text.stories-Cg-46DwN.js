@@ -1,0 +1,6 @@
+import{T as c}from"./index-Ddkd9N8r.js";import"./index-oJaljHnC.js";import"./index-DH5ua8nC.js";import"./_commonjsHelpers-Cpj98o6Y.js";import"./index-D9uilScg.js";import"./jsx-runtime-DQ32znRX.js";const g={title:"Typography/Text",component:c,args:{size:"md",children:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis reiciendis dignissimos iure quibusdam. Sit, accusantium, illum perspiciatis eos recusandae voluptas voluptatem molestias reiciendis necessitatibus ratione ipsum commodi iste obcaecati itaque."},argTypes:{size:{options:["xxs","xs","sm","md","lg","xl","2xl","4xl","5xl","6xl","7xl","8xl","9xl"],control:{type:"inline-radio"}}}},s={},e={args:{children:"Strong text",as:"strong"}};var r,t,i;s.parameters={...s.parameters,docs:{...(r=s.parameters)==null?void 0:r.docs,source:{originalSource:"{}",...(i=(t=s.parameters)==null?void 0:t.docs)==null?void 0:i.source}}};var o,a,m;e.parameters={...e.parameters,docs:{...(o=e.parameters)==null?void 0:o.docs,source:{originalSource:`{
+  args: {
+    children: 'Strong text',
+    as: 'strong'
+  }
+}`,...(m=(a=e.parameters)==null?void 0:a.docs)==null?void 0:m.source}}};const T=["Primary","CustomTag"];export{e as CustomTag,s as Primary,T as __namedExportsOrder,g as default};
